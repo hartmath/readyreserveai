@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { Navigation } from "@/components/Navigation";
-import { Footer } from "@/components/Footer";
+import Layout from "@/components/Layout";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -80,10 +79,8 @@ const Dashboard = () => {
   }
 
   return (
-    <div className="min-h-screen flex flex-col">
-      <Navigation />
-      
-      <main className="flex-1 bg-muted/30">
+    <Layout>
+      <div className="bg-muted/30">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
           {/* Header */}
           <div className="flex items-center justify-between mb-8">
@@ -224,10 +221,8 @@ const Dashboard = () => {
             </CardContent>
           </Card>
         </div>
-      </main>
-      
-      <Footer />
-    </div>
+      </div>
+    </Layout>
   );
 };
 

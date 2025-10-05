@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
-import { Navigation } from "@/components/Navigation";
-import { Footer } from "@/components/Footer";
+import Layout from "@/components/Layout";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
@@ -231,10 +230,8 @@ const Browse = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col">
-      <Navigation />
-      
-      <main className="flex-1">
+    <Layout>
+      <div>
         {/* Header Section */}
         <section className="py-16 gradient-hero">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -359,10 +356,8 @@ const Browse = () => {
             </div>
           </div>
         </section>
-      </main>
-      
-      <Footer />
-    </div>
+      </div>
+    </Layout>
   );
 };
 
