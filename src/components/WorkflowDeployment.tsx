@@ -197,10 +197,10 @@ export const WorkflowDeployment = ({ automationId, automationTitle, onDeployed }
       </CardHeader>
       <CardContent>
         <Tabs defaultValue="configure" className="w-full">
-          <TabsList className="grid w-full grid-cols-3">
-            <TabsTrigger value="configure">Configure</TabsTrigger>
-            <TabsTrigger value="deploy">Deploy</TabsTrigger>
-            <TabsTrigger value="test">Test</TabsTrigger>
+          <TabsList className="grid w-full grid-cols-3 h-auto">
+            <TabsTrigger value="configure" className="text-xs sm:text-sm py-2">Configure</TabsTrigger>
+            <TabsTrigger value="deploy" className="text-xs sm:text-sm py-2">Deploy</TabsTrigger>
+            <TabsTrigger value="test" className="text-xs sm:text-sm py-2">Test</TabsTrigger>
           </TabsList>
 
           <TabsContent value="configure" className="space-y-4">
@@ -212,7 +212,7 @@ export const WorkflowDeployment = ({ automationId, automationTitle, onDeployed }
                   API Keys & Credentials
                 </h3>
                 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
                   <div className="space-y-2">
                     <Label htmlFor="openai-key">OpenAI API Key</Label>
                     <Input
@@ -266,7 +266,7 @@ export const WorkflowDeployment = ({ automationId, automationTitle, onDeployed }
                   Business Information
                 </h3>
                 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
                   <div className="space-y-2">
                     <Label htmlFor="business-name">Business Name</Label>
                     <Input
@@ -372,12 +372,12 @@ export const WorkflowDeployment = ({ automationId, automationTitle, onDeployed }
                 </div>
               </div>
 
-              <div className="flex gap-2">
-                <Button onClick={saveConfiguration}>
+              <div className="flex flex-col sm:flex-row gap-2 sm:gap-3">
+                <Button onClick={saveConfiguration} className="w-full sm:w-auto">
                   <Settings className="h-4 w-4 mr-2" />
                   Save Configuration
                 </Button>
-                <Button onClick={generateDeploymentPackage} variant="default">
+                <Button onClick={generateDeploymentPackage} variant="default" className="w-full sm:w-auto">
                   <Zap className="h-4 w-4 mr-2" />
                   Generate Deployment Package
                 </Button>
@@ -470,8 +470,8 @@ export const WorkflowDeployment = ({ automationId, automationTitle, onDeployed }
                   </p>
                 </div>
 
-                <div className="flex gap-2">
-                  <Button onClick={testWebhook} disabled={testing}>
+                <div className="flex flex-col sm:flex-row gap-2 sm:gap-3">
+                  <Button onClick={testWebhook} disabled={testing} className="w-full sm:w-auto">
                     {testing ? (
                       <>
                         <div className="animate-spin h-4 w-4 border-2 border-white border-t-transparent rounded-full mr-2" />
@@ -484,7 +484,7 @@ export const WorkflowDeployment = ({ automationId, automationTitle, onDeployed }
                       </>
                     )}
                   </Button>
-                  <Button variant="outline" asChild>
+                  <Button variant="outline" asChild className="w-full sm:w-auto">
                     <a href={deploymentPackage.webhookUrl} target="_blank" rel="noopener noreferrer">
                       <ExternalLink className="h-4 w-4 mr-2" />
                       Open Webhook URL

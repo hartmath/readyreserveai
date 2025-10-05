@@ -39,14 +39,15 @@ export const Navigation = () => {
   return (
     <header className="sticky top-0 left-0 right-0 z-50 bg-card/80 backdrop-blur-xl border-b border-border/50 shadow-elevated">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between h-16 sm:h-18 lg:h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-3 group">
+          <Link to="/" className="flex items-center gap-2 sm:gap-3 group">
             <img 
               src={logo} 
               alt="ReadyReserve AI Logo" 
-              className="h-12 w-auto object-contain group-hover:scale-105 transition-smooth"
+              className="h-8 sm:h-10 lg:h-12 w-auto object-contain group-hover:scale-105 transition-smooth"
             />
+            <span className="text-lg sm:text-xl font-bold hidden sm:block">ReadyReserve AI</span>
           </Link>
           
           {/* Desktop Navigation */}

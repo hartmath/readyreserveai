@@ -102,17 +102,17 @@ export const Chatbot = () => {
       <Button
         onClick={() => setIsOpen(true)}
         className={cn(
-          "fixed bottom-6 right-6 h-14 w-14 rounded-full shadow-elevated transition-transform hover:scale-110",
+          "fixed bottom-4 right-4 sm:bottom-6 sm:right-6 h-12 w-12 sm:h-14 sm:w-14 rounded-full shadow-elevated transition-transform hover:scale-110",
           isOpen && "hidden"
         )}
         size="icon"
         variant="gradient"
       >
-        <MessageCircle className="h-6 w-6" />
+        <MessageCircle className="h-5 w-5 sm:h-6 sm:w-6" />
       </Button>
 
       {isOpen && (
-        <div className="fixed bottom-6 right-6 w-96 h-[500px] bg-card border border-border rounded-2xl shadow-elevated flex flex-col z-50">
+        <div className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 w-[calc(100vw-2rem)] sm:w-96 h-[500px] bg-card border border-border rounded-2xl shadow-elevated flex flex-col z-50">
           <div className="flex items-center justify-between p-4 border-b border-border bg-purple-600 rounded-t-2xl">
             <div className="flex items-center gap-2">
               <MessageCircle className="h-5 w-5 text-white" />

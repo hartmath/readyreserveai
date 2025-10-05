@@ -64,18 +64,18 @@ export const AutomationCategories = () => {
   return (
     <section className="py-16 bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between mb-8">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-6 sm:mb-8 gap-4">
           <div>
-            <h2 className="text-3xl font-bold mb-2">Featured Automations</h2>
+            <h2 className="text-2xl sm:text-3xl font-bold mb-2">Featured Automations</h2>
             <p className="text-muted-foreground">Hand-picked AI workflows for your business</p>
           </div>
-          <Button variant="outline">
+          <Button variant="outline" className="w-full sm:w-auto">
             View All
             <ArrowRight className="ml-2 h-4 w-4" />
           </Button>
         </div>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5">
           {automations.map((automation, index) => {
             const Icon = automation.icon;
             return (
