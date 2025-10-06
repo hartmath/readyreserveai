@@ -60,6 +60,13 @@ export const Navigation = () => {
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary group-hover:w-full transition-all duration-300"></span>
             </Link>
             <Link 
+              to="/ai-agents" 
+              className="text-sm font-medium text-foreground/80 hover:text-primary transition-smooth relative group"
+            >
+              AI Agents
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary group-hover:w-full transition-all duration-300"></span>
+            </Link>
+            <Link 
               to="/about" 
               className="text-sm font-medium text-foreground/80 hover:text-primary transition-smooth relative group"
             >

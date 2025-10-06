@@ -67,6 +67,13 @@ const MobileHeader = () => {
                 Browse Automations
               </Link>
               <Link 
+                to="/ai-agents" 
+                className="block text-lg font-medium py-3 px-4 rounded-lg hover:bg-secondary transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                AI Agents
+              </Link>
+              <Link 
                 to="/about" 
                 className="block text-lg font-medium py-3 px-4 rounded-lg hover:bg-secondary transition-colors"
                 onClick={() => setMobileMenuOpen(false)}

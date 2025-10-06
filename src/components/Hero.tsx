@@ -145,6 +145,26 @@ export const Hero = () => {
               We are peers, not clients - delivering enterprise-grade AI consulting with SMB focus
             </p>
           </div>
+          
+          {/* CTA Buttons */}
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center pt-4 sm:pt-6">
+            <Button 
+              variant="gradient" 
+              size="lg" 
+              onClick={() => navigate("/browse")}
+              className="text-sm sm:text-base px-6 sm:px-8"
+            >
+              Browse Automations
+            </Button>
+            <Button 
+              variant="outline" 
+              size="lg" 
+              onClick={() => navigate("/ai-agents")}
+              className="text-sm sm:text-base px-6 sm:px-8 border-2 hover:bg-primary/5"
+            >
+              View AI Agents
+            </Button>
+          </div>
         </div>
       </div>
     </section>;

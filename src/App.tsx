@@ -23,6 +23,7 @@ import Blog from "./pages/Blog";
 import Resources from "./pages/Resources";
 import Comparison from "./pages/Comparison";
 import SecurityPage from "./pages/SecurityPage";
+import AIAgents from "./pages/AIAgents";
 
 const queryClient = new QueryClient();
 
@@ -52,6 +53,7 @@ const App = () => (
           <Route path="/resources" element={<Resources />} />
           <Route path="/comparison" element={<Comparison />} />
           <Route path="/security" element={<SecurityPage />} />
+          <Route path="/ai-agents" element={<AIAgents />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
