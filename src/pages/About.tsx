@@ -1,14 +1,10 @@
-import { Navigation } from "@/components/Navigation";
-import { Footer } from "@/components/Footer";
+import Layout from "@/components/Layout";
 import { Button } from "@/components/ui/button";
 import { Sparkles, Target, Users, Zap } from "lucide-react";
 
 const About = () => {
   return (
-    <div className="min-h-screen flex flex-col">
-      <Navigation />
-      
-      <main className="flex-1">
+    <Layout>
         {/* Hero Section */}
         <section className="py-20 gradient-hero">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -147,10 +143,7 @@ const About = () => {
             </div>
           </div>
         </section>
-      </main>
-      
-      <Footer />
-    </div>
+    </Layout>
   );
 };
 

@@ -1,5 +1,4 @@
-import { Navigation } from "@/components/Navigation";
-import { Footer } from "@/components/Footer";
+import Layout from "@/components/Layout";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -62,10 +61,7 @@ const Pricing = () => {
   ];
 
   return (
-    <div className="min-h-screen flex flex-col">
-      <Navigation />
-      
-      <main className="flex-1">
+    <Layout>
         {/* Hero Section */}
         <section className="py-20 gradient-hero">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -195,10 +191,7 @@ const Pricing = () => {
             </div>
           </div>
         </section>
-      </main>
-      
-      <Footer />
-    </div>
+    </Layout>
   );
 };
 
