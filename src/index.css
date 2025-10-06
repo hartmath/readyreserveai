@@ -67,14 +67,14 @@ All colors MUST be HSL.
   }
 
   :root {
-    /* RR Corporate Identity Colors */
-    --background: 0 0% 0%; /* Black */
+    /* RR Corporate Identity Colors - Enhanced Visibility */
+    --background: 220 25% 8%; /* Dark blue-grey instead of pure black */
     --foreground: 0 0% 98%;
 
-    --card: 0 0% 8%;
+    --card: 220 20% 12%; /* Slightly lighter cards */
     --card-foreground: 0 0% 98%;
 
-    --popover: 0 0% 8%;
+    --popover: 220 20% 12%;
     --popover-foreground: 0 0% 98%;
 
     /* Primary: Neon Teal (#00FFFF) */
@@ -83,11 +83,11 @@ All colors MUST be HSL.
     --primary-glow: 180 100% 60%;
 
     /* Secondary: Grey (#808080) */
-    --secondary: 0 0% 50%;
+    --secondary: 220 15% 16%; /* Lighter secondary */
     --secondary-foreground: 0 0% 98%;
 
-    --muted: 0 0% 12%;
-    --muted-foreground: 0 0% 65%;
+    --muted: 220 15% 16%; /* Lighter muted */
+    --muted-foreground: 220 10% 65%;
 
     /* Accent: Gold (#FFD700) */
     --accent: 51 100% 50%;
@@ -97,8 +97,8 @@ All colors MUST be HSL.
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 0 0% 20%;
-    --input: 0 0% 20%;
+    --border: 220 20% 18%; /* Lighter borders */
+    --input: 220 20% 18%;
     --ring: 180 100% 50%;
 
     --radius: 0.5rem;
@@ -106,11 +106,11 @@ All colors MUST be HSL.
     /* RR Brand Gradients */
     --gradient-primary: linear-gradient(135deg, hsl(180 100% 50%), hsl(51 100% 50%));
     --gradient-accent: linear-gradient(135deg, hsl(51 100% 50%), hsl(180 100% 50%));
-    --gradient-hero: linear-gradient(180deg, hsl(0 0% 0%), hsl(0 0% 8%));
+    --gradient-hero: linear-gradient(180deg, hsl(220 25% 8%), hsl(220 20% 12%));
     --gradient-card: linear-gradient(135deg, hsl(180 100% 50% / 0.1), hsl(51 100% 50% / 0.1));
     --gradient-neon: linear-gradient(45deg, hsl(180 100% 50%), hsl(180 100% 60%), hsl(51 100% 50%));
     
-    --shadow-elevated: 0 1px 3px rgba(0, 0, 0, 0.5), 0 4px 12px rgba(0, 0, 0, 0.3);
+    --shadow-elevated: 0 1px 3px rgba(0, 0, 0, 0.3), 0 4px 12px rgba(0, 0, 0, 0.2);
     --shadow-glow: 0 0 0 1px hsl(180 100% 50% / 0.3), 0 8px 24px hsl(180 100% 50% / 0.4);
     --shadow-neon: 0 0 20px hsl(180 100% 50% / 0.5), 0 0 40px hsl(180 100% 50% / 0.3);
     
@@ -118,43 +118,44 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 240 10% 10%;
+    --background: 220 25% 8%;
     --foreground: 0 0% 98%;
 
-    --card: 240 10% 12%;
+    --card: 220 20% 12%;
     --card-foreground: 0 0% 98%;
 
-    --popover: 240 10% 12%;
+    --popover: 220 20% 12%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 220 75% 40%;
-    --primary-foreground: 0 0% 100%;
-    --primary-glow: 220 70% 55%;
+    --primary: 180 100% 50%;
+    --primary-foreground: 0 0% 0%;
+    --primary-glow: 180 100% 60%;
 
-    --secondary: 240 10% 16%;
+    --secondary: 220 15% 16%;
     --secondary-foreground: 0 0% 98%;
 
-    --muted: 240 10% 16%;
-    --muted-foreground: 240 5% 65%;
+    --muted: 220 15% 16%;
+    --muted-foreground: 220 10% 65%;
 
-    --accent: 200 85% 50%;
-    --accent-foreground: 0 0% 100%;
-    --accent-glow: 200 80% 65%;
+    --accent: 51 100% 50%;
+    --accent-foreground: 0 0% 0%;
+    --accent-glow: 51 100% 60%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 240 10% 18%;
-    --input: 240 10% 18%;
-    --ring: 271 91% 70%;
+    --border: 220 20% 18%;
+    --input: 220 20% 18%;
+    --ring: 180 100% 50%;
 
-    --gradient-primary: linear-gradient(135deg, hsl(220 75% 40%), hsl(200 85% 50%));
-    --gradient-accent: linear-gradient(135deg, hsl(200 85% 50%), hsl(220 75% 40%));
-    --gradient-hero: linear-gradient(180deg, hsl(240 10% 10%), hsl(240 10% 12%));
-    --gradient-card: linear-gradient(135deg, hsl(220 75% 40% / 0.1), hsl(200 85% 50% / 0.1));
+    --gradient-primary: linear-gradient(135deg, hsl(180 100% 50%), hsl(51 100% 50%));
+    --gradient-accent: linear-gradient(135deg, hsl(51 100% 50%), hsl(180 100% 50%));
+    --gradient-hero: linear-gradient(180deg, hsl(220 25% 8%), hsl(220 20% 12%));
+    --gradient-card: linear-gradient(135deg, hsl(180 100% 50% / 0.1), hsl(51 100% 50% / 0.1));
     
     --shadow-elevated: 0 1px 3px rgba(0, 0, 0, 0.3), 0 4px 12px rgba(0, 0, 0, 0.2);
-    --shadow-glow: 0 0 0 1px hsl(220 75% 40% / 0.2), 0 8px 24px hsl(220 75% 40% / 0.25);
+    --shadow-glow: 0 0 0 1px hsl(180 100% 50% / 0.3), 0 8px 24px hsl(180 100% 50% / 0.4);
+    --shadow-neon: 0 0 20px hsl(180 100% 50% / 0.5), 0 0 40px hsl(180 100% 50% / 0.3);
   }
 }
 

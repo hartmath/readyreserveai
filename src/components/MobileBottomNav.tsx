@@ -14,19 +14,19 @@ const MobileBottomNav = () => {
       exact: true
     },
     {
-      path: "/browse",
+      path: "/solutions",
       icon: Search,
-      label: "Browse"
+      label: "Solutions"
     },
     {
-      path: "/pricing",
+      path: "/contact",
       icon: Settings,
-      label: "Pricing"
+      label: "Contact"
     },
     {
       path: "/dashboard",
       icon: User,
-      label: "Profile"
+      label: "Portal"
     }
   ];
 
