@@ -85,7 +85,7 @@ const MobileHeader = () => {
                 className="block text-lg font-medium py-3 px-4 rounded-lg hover:bg-secondary transition-colors"
                 onClick={() => setMobileMenuOpen(false)}
               >
-                Dashboard
+                Profile
               </Link>
             </div>
 

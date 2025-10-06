@@ -19,14 +19,14 @@ const MobileBottomNav = () => {
       label: "Browse"
     },
     {
-      path: "/dashboard",
-      icon: User,
-      label: "Dashboard"
-    },
-    {
       path: "/pricing",
       icon: Settings,
       label: "Pricing"
+    },
+    {
+      path: "/dashboard",
+      icon: User,
+      label: "Profile"
     }
   ];
 
