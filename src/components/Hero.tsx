@@ -38,7 +38,7 @@ export const Hero = () => {
           
           {/* Main Heading */}
           <div className="space-y-4 sm:space-y-6">
-            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-[1.1] tracking-tight">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-[1.1] tracking-tight px-2">
               <span className="inline-block overflow-hidden whitespace-nowrap border-r-4 border-primary animate-[typewriter_3.5s_steps(40)_1s_1_normal_both,blink_0.75s_step-end_infinite]">
                 There's an AI Automation for That
               </span>
@@ -88,46 +88,46 @@ export const Hero = () => {
           </div>
           
           {/* Stats */}
-          <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 md:gap-8 lg:gap-12 pt-6 sm:pt-8">
+          <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-6 md:gap-8 lg:gap-12 pt-4 sm:pt-6 lg:pt-8 px-4">
             <div className="flex items-center gap-2 sm:gap-3">
-              <div className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 rounded-lg sm:rounded-xl bg-primary/10 flex items-center justify-center">
-                <Zap className="w-4 h-4 sm:w-5 sm:h-5 lg:w-6 lg:h-6 text-primary" />
+              <div className="w-7 h-7 sm:w-10 sm:h-10 lg:w-12 lg:h-12 rounded-lg sm:rounded-xl bg-primary/10 flex items-center justify-center">
+                <Zap className="w-3 h-3 sm:w-5 sm:h-5 lg:w-6 lg:h-6 text-primary" />
               </div>
               <div className="text-left">
-                <div className="text-lg sm:text-xl lg:text-2xl font-bold">150+</div>
+                <div className="text-base sm:text-xl lg:text-2xl font-bold">150+</div>
                 <div className="text-xs sm:text-sm text-muted-foreground">Automations</div>
               </div>
             </div>
             
-            <div className="w-px h-8 sm:h-10 lg:h-12 bg-border hidden sm:block"></div>
+            <div className="w-px h-6 sm:h-10 lg:h-12 bg-border hidden sm:block"></div>
             
             <div className="flex items-center gap-2 sm:gap-3">
-              <div className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 rounded-lg sm:rounded-xl bg-accent/10 flex items-center justify-center">
-                <Users className="w-4 h-4 sm:w-5 sm:h-5 lg:w-6 lg:h-6 text-accent" />
+              <div className="w-7 h-7 sm:w-10 sm:h-10 lg:w-12 lg:h-12 rounded-lg sm:rounded-xl bg-accent/10 flex items-center justify-center">
+                <Users className="w-3 h-3 sm:w-5 sm:h-5 lg:w-6 lg:h-6 text-accent" />
               </div>
               <div className="text-left">
-                <div className="text-lg sm:text-xl lg:text-2xl font-bold">10,000+</div>
+                <div className="text-base sm:text-xl lg:text-2xl font-bold">10,000+</div>
                 <div className="text-xs sm:text-sm text-muted-foreground">Active Users</div>
               </div>
             </div>
             
-            <div className="w-px h-8 sm:h-10 lg:h-12 bg-border hidden sm:block"></div>
+            <div className="w-px h-6 sm:h-10 lg:h-12 bg-border hidden sm:block"></div>
             
             <div className="flex items-center gap-2 sm:gap-3">
-              <div className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 rounded-lg sm:rounded-xl bg-primary/10 flex items-center justify-center">
-                <TrendingUp className="w-4 h-4 sm:w-5 sm:h-5 lg:w-6 lg:h-6 text-primary" />
+              <div className="w-7 h-7 sm:w-10 sm:h-10 lg:w-12 lg:h-12 rounded-lg sm:rounded-xl bg-primary/10 flex items-center justify-center">
+                <TrendingUp className="w-3 h-3 sm:w-5 sm:h-5 lg:w-6 lg:h-6 text-primary" />
               </div>
               <div className="text-left">
-                <div className="text-lg sm:text-xl lg:text-2xl font-bold">98%</div>
+                <div className="text-base sm:text-xl lg:text-2xl font-bold">98%</div>
                 <div className="text-xs sm:text-sm text-muted-foreground">Success Rate</div>
               </div>
             </div>
           </div>
           
           {/* Trust badges */}
-          <div className="pt-4 sm:pt-6">
-            <p className="text-xs sm:text-sm text-muted-foreground mb-3 sm:mb-4">Powered by leading AI platforms</p>
-            <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-4 lg:gap-6 opacity-60">
+          <div className="pt-3 sm:pt-4 lg:pt-6 px-4">
+            <p className="text-xs sm:text-sm text-muted-foreground mb-2 sm:mb-3 lg:mb-4">Powered by leading AI platforms</p>
+            <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-3 lg:gap-4 opacity-60">
               <span className="text-xs sm:text-sm font-semibold">OpenAI</span>
               <span className="text-muted-foreground hidden sm:inline">•</span>
               <span className="text-xs sm:text-sm font-semibold">Microsoft Azure</span>
