@@ -22,8 +22,8 @@ const Layout = ({ children, showFooter = true }: LayoutProps) => {
         {children}
       </main>
       
-      {/* Footer */}
-      {showFooter && <Footer />}
+      {/* Footer - Hidden on mobile */}
+      {showFooter && <div className="hidden sm:block"><Footer /></div>}
       
       {/* Mobile Bottom Navigation */}
       <MobileBottomNav />
