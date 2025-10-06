@@ -33,7 +33,7 @@ export const Hero = () => {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-3 py-2 sm:px-4 rounded-full bg-primary/10 border border-primary/20">
             <Sparkles className="w-3 h-3 sm:w-4 sm:h-4 text-primary" />
-            <span className="text-xs sm:text-sm font-semibold text-primary">150+ AI Automations Available</span>
+            <span className="text-xs sm:text-sm font-semibold text-primary">Enterprise-Grade AI Consulting</span>
           </div>
           
           {/* Main Heading */}
@@ -50,8 +50,8 @@ export const Hero = () => {
             </h1>
             
             <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto font-light px-4">
-              Discover AI-powered workflows to automate your business.<br className="hidden sm:block" />
-              <span className="sm:hidden"> </span>Connect, customize, and deploy in minutes.
+              Enterprise-level AI consulting with the personal touch your SMB deserves.<br className="hidden sm:block" />
+              <span className="sm:hidden"> </span>Same expertise as IBM Watson, Google Cloud, Microsoft Azure, and AWS.
             </p>
           </div>
           
@@ -131,15 +131,15 @@ export const Hero = () => {
           
           {/* Trust badges */}
           <div className="pt-3 sm:pt-4 lg:pt-6 px-4">
-            <p className="text-xs sm:text-sm text-muted-foreground mb-2 sm:mb-3 lg:mb-4">Powered by leading AI platforms</p>
+            <p className="text-xs sm:text-sm text-muted-foreground mb-2 sm:mb-3 lg:mb-4">Operating at the same level as global AI leaders</p>
             <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-3 lg:gap-4 opacity-60">
-              <span className="text-xs sm:text-sm font-semibold">OpenAI</span>
+              <span className="text-xs sm:text-sm font-semibold">IBM Watson</span>
+              <span className="text-muted-foreground hidden sm:inline">•</span>
+              <span className="text-xs sm:text-sm font-semibold">Google Cloud</span>
               <span className="text-muted-foreground hidden sm:inline">•</span>
               <span className="text-xs sm:text-sm font-semibold">Microsoft Azure</span>
               <span className="text-muted-foreground hidden sm:inline">•</span>
-              <span className="text-xs sm:text-sm font-semibold">Google AI</span>
-              <span className="text-muted-foreground hidden sm:inline">•</span>
-              <span className="text-xs sm:text-sm font-semibold">n8n</span>
+              <span className="text-xs sm:text-sm font-semibold">AWS</span>
             </div>
           </div>
         </div>

@@ -1,14 +1,10 @@
-import { Navigation } from "@/components/Navigation";
-import { Footer } from "@/components/Footer";
+import Layout from "@/components/Layout";
 import { Button } from "@/components/ui/button";
-import { Sparkles, Target, Users, Zap } from "lucide-react";
+import { Sparkles, Target, Users, Zap, Building2, Award, Globe } from "lucide-react";
 
 const About = () => {
   return (
-    <div className="min-h-screen flex flex-col">
-      <Navigation />
-      
-      <main className="flex-1">
+    <Layout>
         {/* Hero Section */}
         <section className="py-20 gradient-hero">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -19,12 +15,12 @@ const About = () => {
               </div>
               
               <h1 className="text-5xl md:text-6xl font-bold leading-tight">
-                Empowering Businesses with AI Automation
+                Enterprise-Grade AI Consulting for SMBs
               </h1>
               
               <p className="text-xl text-muted-foreground">
-                We're on a mission to make AI automation accessible to everyone, 
-                helping businesses save time and scale effortlessly.
+                We operate at the same level as IBM Watson, Google Cloud, Microsoft Azure, and AWS, 
+                but with the personalized approach your small and medium business deserves.
               </p>
             </div>
           </div>
@@ -37,47 +33,47 @@ const About = () => {
               <div className="space-y-6">
                 <h2 className="text-4xl font-bold">Our Mission</h2>
                 <p className="text-lg text-muted-foreground">
-                  At ReadyReserve, we believe that every business deserves access to 
-                  powerful AI automation tools. We've created a marketplace where you 
-                  can discover, customize, and deploy AI workflows in minutes—not months.
+                  At ReadyReserve AI, we bridge the gap between enterprise-level AI consulting 
+                  and small-to-medium business needs. While IBM Watson, Google Cloud, Microsoft Azure, 
+                  and AWS serve Fortune 500 companies, we bring that same expertise to SMBs.
                 </p>
                 <p className="text-lg text-muted-foreground">
-                  Our platform connects businesses with pre-built automation solutions, 
-                  eliminating the need for expensive development and lengthy implementation times.
+                  Our mission is to democratize enterprise-grade AI consulting, making it accessible, 
+                  affordable, and personalized for businesses that need the power but want the personal touch.
                 </p>
               </div>
               
               <div className="grid grid-cols-2 gap-4">
                 <div className="bg-card border border-border rounded-2xl p-6 space-y-3">
                   <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center">
-                    <Target className="w-6 h-6 text-primary" />
+                    <Building2 className="w-6 h-6 text-primary" />
                   </div>
-                  <h3 className="text-xl font-semibold">150+</h3>
-                  <p className="text-sm text-muted-foreground">AI Automations</p>
+                  <h3 className="text-xl font-semibold">Enterprise-Grade</h3>
+                  <p className="text-sm text-muted-foreground">AI Consulting</p>
                 </div>
                 
                 <div className="bg-card border border-border rounded-2xl p-6 space-y-3">
                   <div className="w-12 h-12 rounded-xl bg-accent/10 flex items-center justify-center">
                     <Users className="w-6 h-6 text-accent" />
                   </div>
-                  <h3 className="text-xl font-semibold">10,000+</h3>
-                  <p className="text-sm text-muted-foreground">Happy Users</p>
+                  <h3 className="text-xl font-semibold">SMB Focus</h3>
+                  <p className="text-sm text-muted-foreground">Personalized Service</p>
                 </div>
                 
                 <div className="bg-card border border-border rounded-2xl p-6 space-y-3">
                   <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center">
-                    <Zap className="w-6 h-6 text-primary" />
+                    <Award className="w-6 h-6 text-primary" />
                   </div>
-                  <h3 className="text-xl font-semibold">98%</h3>
-                  <p className="text-sm text-muted-foreground">Success Rate</p>
+                  <h3 className="text-xl font-semibold">Same Level</h3>
+                  <p className="text-sm text-muted-foreground">As Global Leaders</p>
                 </div>
                 
                 <div className="bg-card border border-border rounded-2xl p-6 space-y-3">
                   <div className="w-12 h-12 rounded-xl bg-accent/10 flex items-center justify-center">
-                    <Sparkles className="w-6 h-6 text-accent" />
+                    <Globe className="w-6 h-6 text-accent" />
                   </div>
-                  <h3 className="text-xl font-semibold">24/7</h3>
-                  <p className="text-sm text-muted-foreground">Support</p>
+                  <h3 className="text-xl font-semibold">Global Reach</h3>
+                  <p className="text-sm text-muted-foreground">Local Touch</p>
                 </div>
               </div>
             </div>
@@ -147,10 +143,7 @@ const About = () => {
             </div>
           </div>
         </section>
-      </main>
-      
-      <Footer />
-    </div>
+    </Layout>
   );
 };
 

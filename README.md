@@ -1,4 +1,6 @@
-# ReadyReserve AI Automation Platform
+# ReadyReserve AI - Enterprise-Grade AI Consulting for SMBs
+
+We operate at the same level as IBM Watson, Google Cloud, Microsoft Azure, and AWS, but with the personalized approach tailored specifically to the unique needs of small and medium-sized businesses.
 
 A modern AI-powered automation platform built with React, TypeScript, and Supabase.
 

@@ -6,11 +6,12 @@ Contains comprehensive information about the website, services, and FAQ
 # Website Information
 WEBSITE_INFO = {
     "name": "ReadyReserve AI",
-    "tagline": "Your growth partner for AI-driven digital transformation",
-    "description": "ReadyReserve brings AI power to medium-sized businesses—fast, flexible, and customized. We integrate with leading AI platforms to automate your workflows.",
+    "tagline": "Enterprise-grade AI consulting with the personal touch your SMB deserves",
+    "description": "We operate at the same level as IBM Watson, Google Cloud, Microsoft Azure, and AWS, but with the personalized approach tailored specifically to the unique needs of small and medium-sized businesses.",
     "url": "https://readyreserve.ai",
     "founded": "2024",
-    "mission": "To democratize AI automation for businesses of all sizes"
+    "mission": "To democratize enterprise-grade AI consulting for SMBs, making it accessible, affordable, and personalized",
+    "positioning": "Enterprise-level AI consulting with SMB focus and personal touch"
 }
 
 # Service Categories
