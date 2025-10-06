@@ -1,6 +1,7 @@
 import { Hero } from "@/components/Hero";
 import { Categories } from "@/components/Categories";
 import { AutomationCategories } from "@/components/AutomationCategories";
+import { AIAgentsSection } from "@/components/AIAgentsSection";
 import { HowItWorks } from "@/components/HowItWorks";
 import { ContactSection } from "@/components/ContactSection";
 import { Testimonials } from "@/components/Testimonials";
@@ -12,6 +13,7 @@ const Index = () => {
       <Hero />
       <Categories />
       <AutomationCategories />
+      <AIAgentsSection />
       <Testimonials />
       <HowItWorks />
       <div id="contact" className="bg-secondary/30 py-16">
