@@ -47,37 +47,30 @@ export const Navigation = () => {
               alt="ReadyReserve AI Logo" 
               className="h-8 sm:h-10 lg:h-12 w-auto object-contain group-hover:scale-105 transition-smooth"
             />
-            <span className="text-lg sm:text-xl font-bold hidden sm:block text-neon">Ready Reserve</span>
+            <span className="text-lg sm:text-xl font-bold hidden sm:block">ReadyReserve AI</span>
           </Link>
           
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center gap-8">
             <Link 
-              to="/" 
-              className="text-sm font-medium text-foreground/80 hover:text-neon transition-smooth relative group"
+              to="/browse" 
+              className="text-sm font-medium text-foreground/80 hover:text-primary transition-smooth relative group"
             >
-              Home
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary group-hover:w-full transition-all duration-300"></span>
-            </Link>
-            <Link 
-              to="/solutions" 
-              className="text-sm font-medium text-foreground/80 hover:text-neon transition-smooth relative group"
-            >
-              Solutions
+              Browse
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary group-hover:w-full transition-all duration-300"></span>
             </Link>
             <Link 
               to="/about" 
-              className="text-sm font-medium text-foreground/80 hover:text-neon transition-smooth relative group"
+              className="text-sm font-medium text-foreground/80 hover:text-primary transition-smooth relative group"
             >
               About
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary group-hover:w-full transition-all duration-300"></span>
             </Link>
             <Link 
-              to="/contact" 
-              className="text-sm font-medium text-foreground/80 hover:text-neon transition-smooth relative group"
+              to="/pricing" 
+              className="text-sm font-medium text-foreground/80 hover:text-primary transition-smooth relative group"
             >
-              Contact
+              Pricing
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary group-hover:w-full transition-all duration-300"></span>
             </Link>
           </div>

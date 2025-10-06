@@ -58,36 +58,36 @@ const MobileHeader = () => {
             </div>
 
             {/* Menu Items */}
-             <div className="flex-1 p-4 space-y-4">
-               <Link 
-                 to="/solutions" 
-                 className="block text-lg font-medium py-3 px-4 rounded-lg hover:bg-secondary transition-colors"
-                 onClick={() => setMobileMenuOpen(false)}
-               >
-                 Solutions
-               </Link>
-               <Link 
-                 to="/about" 
-                 className="block text-lg font-medium py-3 px-4 rounded-lg hover:bg-secondary transition-colors"
-                 onClick={() => setMobileMenuOpen(false)}
-               >
-                 About
-               </Link>
-               <Link 
-                 to="/contact" 
-                 className="block text-lg font-medium py-3 px-4 rounded-lg hover:bg-secondary transition-colors"
-                 onClick={() => setMobileMenuOpen(false)}
-               >
-                 Contact
-               </Link>
-               <Link 
-                 to="/dashboard" 
-                 className="block text-lg font-medium py-3 px-4 rounded-lg hover:bg-secondary transition-colors"
-                 onClick={() => setMobileMenuOpen(false)}
-               >
-                 Portal
-               </Link>
-             </div>
+            <div className="flex-1 p-4 space-y-4">
+              <Link 
+                to="/browse" 
+                className="block text-lg font-medium py-3 px-4 rounded-lg hover:bg-secondary transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Browse Automations
+              </Link>
+              <Link 
+                to="/about" 
+                className="block text-lg font-medium py-3 px-4 rounded-lg hover:bg-secondary transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                About
+              </Link>
+              <Link 
+                to="/pricing" 
+                className="block text-lg font-medium py-3 px-4 rounded-lg hover:bg-secondary transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Pricing
+              </Link>
+              <Link 
+                to="/dashboard" 
+                className="block text-lg font-medium py-3 px-4 rounded-lg hover:bg-secondary transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Profile
+              </Link>
+            </div>
 
             {/* Footer */}
             <div className="p-4 border-t border-border">

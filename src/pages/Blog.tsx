@@ -1,4 +1,5 @@
-import Layout from "@/components/Layout";
+import { Navigation } from "@/components/Navigation";
+import { Footer } from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Calendar, Clock, ArrowRight } from "lucide-react";
@@ -59,7 +60,9 @@ const categories = ["All", "Business Strategy", "Tutorial", "Industry Insights",
 
 const Blog = () => {
   return (
-    <Layout>
+    <div className="min-h-screen">
+      <Navigation />
+      <main>
         {/* Hero Section */}
         <section className="py-20 bg-gradient-to-br from-background via-secondary/20 to-background">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -154,7 +157,9 @@ const Blog = () => {
             </div>
           </div>
         </section>
-    </Layout>
+      </main>
+      <Footer />
+    </div>
   );
 };
 
