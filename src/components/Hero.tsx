@@ -39,7 +39,12 @@ export const Hero = () => {
           {/* Main Heading */}
           <div className="space-y-4 sm:space-y-6">
             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-[1.1] tracking-tight px-2">
-              <span className="inline-block overflow-hidden whitespace-nowrap border-r-4 border-primary animate-[typewriter_3.5s_steps(40)_1s_1_normal_both,blink_0.75s_step-end_infinite]">
+              {/* Mobile version - no typewriter animation */}
+              <span className="block sm:hidden">
+                There's an AI Automation for That
+              </span>
+              {/* Desktop version - with typewriter animation */}
+              <span className="hidden sm:inline-block overflow-hidden whitespace-nowrap border-r-4 border-primary animate-[typewriter_3.5s_steps(40)_1s_1_normal_both,blink_0.75s_step-end_infinite]">
                 There's an AI Automation for That
               </span>
             </h1>
