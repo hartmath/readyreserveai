@@ -141,6 +141,9 @@ export const Hero = () => {
               <span className="text-muted-foreground hidden sm:inline">•</span>
               <span className="text-xs sm:text-sm font-semibold">AWS</span>
             </div>
+            <p className="text-xs text-muted-foreground mt-2 opacity-80">
+              We are peers, not clients - delivering enterprise-grade AI consulting with SMB focus
+            </p>
           </div>
         </div>
       </div>

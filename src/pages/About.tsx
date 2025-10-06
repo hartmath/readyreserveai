@@ -33,13 +33,14 @@ const About = () => {
               <div className="space-y-6">
                 <h2 className="text-4xl font-bold">Our Mission</h2>
                 <p className="text-lg text-muted-foreground">
-                  At ReadyReserve AI, we bridge the gap between enterprise-level AI consulting 
-                  and small-to-medium business needs. While IBM Watson, Google Cloud, Microsoft Azure, 
-                  and AWS serve Fortune 500 companies, we bring that same expertise to SMBs.
+                  At ReadyReserve AI, we operate as peers to IBM Watson, Google Cloud, Microsoft Azure, 
+                  and AWS in the AI consulting space. While these giants focus on Fortune 500 enterprises, 
+                  we bring the same level of expertise and capability to small and medium businesses.
                 </p>
                 <p className="text-lg text-muted-foreground">
-                  Our mission is to democratize enterprise-grade AI consulting, making it accessible, 
-                  affordable, and personalized for businesses that need the power but want the personal touch.
+                  We are not powered by these companies - we are their equals in AI consulting expertise, 
+                  but with a specialized focus on delivering enterprise-grade solutions with the personal 
+                  touch that SMBs need and deserve.
                 </p>
               </div>
               

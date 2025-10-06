@@ -7,11 +7,12 @@ Contains comprehensive information about the website, services, and FAQ
 WEBSITE_INFO = {
     "name": "ReadyReserve AI",
     "tagline": "Enterprise-grade AI consulting with the personal touch your SMB deserves",
-    "description": "We operate at the same level as IBM Watson, Google Cloud, Microsoft Azure, and AWS, but with the personalized approach tailored specifically to the unique needs of small and medium-sized businesses.",
+    "description": "We operate as peers to IBM Watson, Google Cloud, Microsoft Azure, and AWS in the AI consulting space. We are not powered by these companies - we are their equals in expertise, but with a specialized focus on delivering enterprise-grade solutions to small and medium businesses.",
     "url": "https://readyreserve.ai",
     "founded": "2024",
     "mission": "To democratize enterprise-grade AI consulting for SMBs, making it accessible, affordable, and personalized",
-    "positioning": "Enterprise-level AI consulting with SMB focus and personal touch"
+    "positioning": "Peer-level AI consulting expertise with SMB focus and personal touch",
+    "competitive_advantage": "We are equals to global AI leaders, not their clients - delivering the same expertise with personalized SMB focus"
 }
 
 # Service Categories

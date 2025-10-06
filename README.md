@@ -1,6 +1,6 @@
 # ReadyReserve AI - Enterprise-Grade AI Consulting for SMBs
 
-We operate at the same level as IBM Watson, Google Cloud, Microsoft Azure, and AWS, but with the personalized approach tailored specifically to the unique needs of small and medium-sized businesses.
+We operate as peers to IBM Watson, Google Cloud, Microsoft Azure, and AWS in the AI consulting space. We are not powered by these companies - we are their equals in expertise, but with a specialized focus on delivering enterprise-grade solutions to small and medium businesses.
 
 A modern AI-powered automation platform built with React, TypeScript, and Supabase.
 
