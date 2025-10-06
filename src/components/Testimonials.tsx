@@ -91,13 +91,16 @@ export const Testimonials = () => {
 
         {/* Company Logos */}
         <div className="mt-20 pt-12 border-t border-border">
-          <p className="text-center text-muted-foreground mb-8">Powered by industry-leading AI providers</p>
+          <p className="text-center text-muted-foreground mb-8">Operating at the same level as global AI leaders</p>
           <div className="flex flex-wrap items-center justify-center gap-12 opacity-60">
-            <div className="text-2xl font-bold">OpenAI</div>
-            <div className="text-2xl font-bold">Google AI</div>
-            <div className="text-2xl font-bold">Azure AI</div>
-            <div className="text-2xl font-bold">n8n</div>
+            <div className="text-2xl font-bold">IBM Watson</div>
+            <div className="text-2xl font-bold">Google Cloud</div>
+            <div className="text-2xl font-bold">Microsoft Azure</div>
+            <div className="text-2xl font-bold">AWS</div>
           </div>
+          <p className="text-center text-sm text-muted-foreground mt-4 opacity-80">
+            We are peers, not clients - delivering enterprise-grade AI consulting with SMB focus
+          </p>
         </div>
       </div>
     </section>
